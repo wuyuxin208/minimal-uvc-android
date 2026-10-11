@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_signal">无信号</string>
+    <string name="signal_connection_hint">连接采集卡与视频信号源</string>
+    <string name="menu_hint">长按屏幕打开菜单</string>
+    <string name="preview_menu">预览菜单</string>
+    <string name="resolution">分辨率</string>
+    <string name="resolution_menu_summary">当前：%1$s\n%2$s\n%3$s</string>
+    <string name="resolution_current">当前：%1$s\n%2$s</string>
+    <string name="resolution_size">%1$d × %2$d</string>
+    <string name="resolution_auto">自动</string>
+    <string name="resolution_auto_summary">自动 · 优先 2560 × 1600</string>
+    <string name="resolution_auto_description">优先 2560 × 1600 / 60fps，失败时自动回退</string>
+    <string name="resolution_target_rate">目标 60fps · 等待实测帧率</string>
+    <string name="resolution_preview_rate">预览 %1$.1f fps · 目标 60fps</string>
+    <string name="resolution_device_rate">设备报告最高 %1$.1f fps</string>
+    <string name="resolution_unknown_rate">帧率能力未知 · 优先尝试 60fps</string>
+    <string name="resolution_selected">已选：%1$s</string>
+    <string name="resolution_empty">连接采集卡后显示可选分辨率</string>
+    <string name="resolution_source">以下分辨率由采集卡通过 USB 提供</string>
+    <string name="resolution_unavailable">此采集卡未提供已选尺寸，可改选或使用自动</string>
+    <string name="selection_check" translatable="false">✓</string>
+    <string name="reconnect">重新连接</string>
+    <string name="reconnect_description">重新检测设备与视频输入</string>
+    <string name="exit">退出</string>
+    <string name="exit_description">结束预览并关闭应用</string>
+</resources>

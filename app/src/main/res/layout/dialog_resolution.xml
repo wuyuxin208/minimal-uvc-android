@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/menu_card_background" android:orientation="vertical"
+    android:paddingTop="28dp" android:paddingBottom="12dp">
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="28dp" android:layout_marginEnd="28dp"
+        android:fontFamily="sans-serif-medium" android:text="@string/resolution"
+        android:textColor="#F0F2F6" android:textSize="20sp" />
+    <TextView
+        android:id="@+id/resolution_status"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="28dp" android:layout_marginEnd="28dp" android:layout_marginTop="10dp"
+        android:textColor="#BCC5D3" android:textSize="13sp" />
+    <TextView
+        android:id="@+id/resolution_source"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="28dp" android:layout_marginEnd="28dp" android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp" android:text="@string/resolution_source"
+        android:textColor="#8993A3" android:textSize="12sp" />
+    <ScrollView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:overScrollMode="never" android:scrollbars="none">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/resolution_options"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" />
+            <TextView
+                android:id="@+id/resolution_empty"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginStart="28dp" android:layout_marginEnd="28dp"
+                android:layout_marginTop="12dp" android:layout_marginBottom="16dp"
+                android:text="@string/resolution_empty" android:textColor="#8993A3" android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

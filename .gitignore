@@ -1,0 +1,21 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+dist/
+diagnostics/
+.DS_Store
+__pycache__/
+*.pyc
+*.jks
+*.keystore
+.env
+.env.*
+*.apk
+*.aab
+app/libs/*.aar
+third_party/source-download/
+# 原始验证报告、截图及开发计划留在本机；只发布脱敏文档。
+docs/*
+!docs/public/

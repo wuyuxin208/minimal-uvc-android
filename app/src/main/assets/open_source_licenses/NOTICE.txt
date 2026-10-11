@@ -1,0 +1,15 @@
+Minimal UVC Android
+Copyright 2026 Miles Wu (GitHub: wuyuxin208)
+
+The original application source and documentation are licensed under
+the Apache License, Version 2.0. Third-party works retain their own licenses.
+
+This application uses AndroidUSBCamera and UVCCamera APIs.
+AndroidUSBCamera: https://github.com/jiangdongguo/AndroidUSBCamera
+UVCCamera: Copyright (c) 2014-2017 saki, https://github.com/saki4510t/UVCCamera
+Upstream revision and license notices are documented in third_party/README.md.
+
+The Gradle wrapper is a Gradle project component distributed under Apache-2.0.
+https://github.com/gradle/gradle
+
+No endorsement by these projects or by Huawei is implied.

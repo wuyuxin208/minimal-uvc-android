@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginStart="12dp" android:layout_marginEnd="12dp"
+    android:minHeight="72dp" android:background="@drawable/menu_row_background"
+    android:clickable="true" android:focusable="true" android:gravity="center_vertical"
+    android:orientation="horizontal" android:padding="16dp">
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView
+            android:id="@+id/resolution_option_title"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textColor="#EDF1F7" android:textSize="17sp" />
+        <TextView
+            android:id="@+id/resolution_option_description"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+            android:textColor="#8993A3" android:textSize="12sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/resolution_option_check"
+        android:layout_width="28dp" android:layout_height="wrap_content"
+        android:layout_marginStart="8dp" android:gravity="center"
+        android:importantForAccessibility="no" android:text="@string/selection_check" android:textColor="#E0E8F4" android:textSize="20sp" />
+</LinearLayout>

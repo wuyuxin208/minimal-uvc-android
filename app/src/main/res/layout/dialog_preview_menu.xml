@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/menu_card_background"
+    android:orientation="vertical" android:paddingTop="28dp" android:paddingBottom="12dp">
+
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="28dp" android:layout_marginEnd="28dp" android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium" android:text="@string/preview_menu"
+        android:textColor="#F0F2F6" android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/menu_resolution"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="12dp" android:layout_marginEnd="12dp"
+        android:minHeight="88dp" android:background="@drawable/menu_row_background"
+        android:clickable="true" android:focusable="true" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="16dp">
+        <ImageView
+            android:layout_width="44dp" android:layout_height="44dp"
+            android:background="@drawable/menu_icon_background" android:padding="10dp"
+            android:importantForAccessibility="no" android:src="@drawable/ic_resolution" />
+        <LinearLayout
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="16dp" android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/resolution" android:textColor="#EDF1F7" android:textSize="17sp" />
+            <TextView
+                android:id="@+id/menu_resolution_description"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+                android:textColor="#8993A3" android:textSize="12sp" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:layout_marginStart="28dp" android:layout_marginEnd="28dp" android:background="#272D37" />
+
+    <LinearLayout
+        android:id="@+id/menu_reconnect"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="12dp" android:layout_marginEnd="12dp"
+        android:minHeight="80dp" android:background="@drawable/menu_row_background"
+        android:clickable="true" android:focusable="true" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="16dp">
+        <ImageView
+            android:layout_width="44dp" android:layout_height="44dp"
+            android:background="@drawable/menu_icon_background" android:padding="10dp"
+            android:importantForAccessibility="no" android:src="@drawable/ic_reconnect" />
+        <LinearLayout
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="16dp" android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/reconnect" android:textColor="#EDF1F7" android:textSize="17sp" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+                android:text="@string/reconnect_description" android:textColor="#8993A3" android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:layout_marginStart="28dp" android:layout_marginEnd="28dp" android:background="#272D37" />
+
+    <LinearLayout
+        android:id="@+id/menu_exit"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginStart="12dp" android:layout_marginEnd="12dp"
+        android:minHeight="80dp" android:background="@drawable/menu_row_background"
+        android:clickable="true" android:focusable="true" android:gravity="center_vertical"
+        android:orientation="horizontal" android:padding="16dp">
+        <ImageView
+            android:layout_width="44dp" android:layout_height="44dp"
+            android:background="@drawable/menu_icon_background" android:padding="10dp"
+            android:importantForAccessibility="no" android:src="@drawable/ic_exit" />
+        <LinearLayout
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="16dp" android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/exit" android:textColor="#EDF1F7" android:textSize="17sp" />
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+                android:text="@string/exit_description" android:textColor="#8993A3" android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

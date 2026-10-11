@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 仅调试包：ADB 发起 GPU 冒烟测试。普通启动无入口，不请求额外权限。 -->
+    <instrumentation android:name=".RendererProbe" android:targetPackage="com.example.minimaluvc" />
+    <application>
+        <activity android:name=".RendererProbeActivity" android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape" android:theme="@style/Theme.MinimalUvc" />
+    </application>
+</manifest>

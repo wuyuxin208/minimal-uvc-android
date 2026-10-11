@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- USB Video Class = 14。Android 会同时匹配设备和接口类别。 -->
+    <usb-device class="14" />
+</resources>

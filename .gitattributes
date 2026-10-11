@@ -1,0 +1,5 @@
+# 保留第三方许可证原始格式，不对原文的空格作代码检查。
+third_party/licenses/* -whitespace
+app/src/main/assets/open_source_licenses/* -whitespace
+gradlew text eol=lf
+gradlew.bat text eol=crlf
